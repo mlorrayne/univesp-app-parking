@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-l)s^-7p#st#w%sdr6ju20pm2m376kxp-fr7)+qk7eem2rvt82v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['univesp-app-parking.herokuapp.com']
+ALLOWED_HOSTS = ['univesp-app-parking.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -104,6 +104,8 @@ LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
+
+USE_L10N = True
 
 USE_TZ = True
 
