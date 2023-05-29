@@ -1,0 +1,8 @@
+from django.contrib import admin
+from .models import Customer
+
+@admin.register(Customer)
+class CustomerAdmin(admin.ModelAdmin):
+    list_display = ["id", "first_name", "last_name", "number_plate", "entry_time", "departure_time"]
+
+
